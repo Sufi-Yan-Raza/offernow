@@ -10,10 +10,6 @@
   font-family: "Grifter";
   src: url(/src/fonts/GRIFTER\ Bold\ 700.otf);
 }
-@font-face {
-  font-family: "Rubik-Doodle-Shadow";
-  src: url(/src/fonts/RubikDoodleShadow-Regular.ttf);
-}
 :root {
   --clr-prime: #0e70e2;
   --clr-text: #626262;
@@ -302,6 +298,7 @@ width:  50%;
 #sign__up >p, #sign__up > p >span{
   font-family: 'Poppins-Bold';
   font-size: 3rem;
+  text-align:center;
 }
 #sign__up >p{
   color: var(--clr-heading);
@@ -343,9 +340,9 @@ form{
 }
 .get__updates input{
   padding: 0.8rem;
-  border: none;
+  border: 1px solid var(--clr-heading);
   font-size: 1rem;
-  max-width: 16rem;
+  max-width: 18rem;
   border-radius: 0.3rem;
 }
 .get__updates button{
@@ -611,9 +608,8 @@ div.signature{
 }
 .get__updates input{
   padding: 0.8rem;
-  border: none;
+border: 1px solid var(--clr-heading);
   font-size: 1rem;
-  max-width: 8rem;
   border-radius: 0.3rem;
 }
 .get__updates button{
